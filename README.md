@@ -5,7 +5,7 @@ Predicts whether an industrial machine will fail from sensor readings (Python, s
 ## Dataset
 - AI4I 2020 Predictive Maintenance Dataset (UCI, CC BY 4.0), 10,000 rows, synthetic.
 - Download: https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset
-- Place `ai4i2020.csv` next to the notebook.
+- `ai4i2020.csv` is included in this repo, next to the notebook.
 
 ## Method
 - Removed ID columns and the failure-reason columns (TWF, HDF, PWF, OSF, RNF) to avoid data leakage.
@@ -30,7 +30,7 @@ Predicts whether an industrial machine will fail from sensor readings (Python, s
 - The test set has only 68 failures, so numbers can vary.
 
 ## Run
-Install the dependencies, then open the notebook `predictive_maintenance.ipynb`:
+Install the dependencies, then open the notebook `predictive_maintenance (1).ipynb`:
 
     pip install -r requirements.txt
 
